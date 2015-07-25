@@ -16,6 +16,7 @@ func main() {
         if err != nil {
 	// handle error
   // space
+  // another space
 }
     defer resp.Body.Close()
     body, err := ioutil.ReadAll(resp.Body)
